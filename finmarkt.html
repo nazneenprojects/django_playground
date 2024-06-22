@@ -1,0 +1,38 @@
+{% extends 'main.html' %}
+{% load static %}
+<link rel="stylesheet" href="{% static 'styles/style.css' %}">
+
+
+
+{% block content %}
+<section class="home">
+    <center>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <font size="9">
+            <h1>Fin-Markt </h1>
+        </font>
+        
+        <br>
+        <br>
+        <h4>Stock analysis and screening tool for Global investors </h4>
+        
+        <form action="" method="get">
+            <input name="q" type="text" placeholder="Search for a company..." height="900" width="10000">
+          </form>
+
+        <img src="{% static 'images/giphy.gif' %}" width="200" height="200">
+
+        <font size="4">
+
+           
+
+        </font>
+    </center>
+</section>
+
+{% endblock content %}
